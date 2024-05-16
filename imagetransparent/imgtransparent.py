@@ -55,4 +55,4 @@ def maketransparent(filename, threshold=0):
     outputimg.save('./images/output.png')
     return
 
-maketransparent('sideye.jpg', threshold=3000)
+maketransparent('business.png', threshold=3000)

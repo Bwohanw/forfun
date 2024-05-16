@@ -29,4 +29,5 @@ row = 5
 col = 4
 
 square = cropped.crop((row*130, col*130, row*130+150, col*130+150))
+square=square.resize((28,28))
 square.show()
